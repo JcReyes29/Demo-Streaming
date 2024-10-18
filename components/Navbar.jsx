@@ -2,7 +2,7 @@
 export default function Navbar() {
     return (
         <>
-            <div className='w-full bg-gradient-to-b from-blue-600 to-blue-400 sm:h-16 md:h-16 shadow-lg'>
+            <div className='w-full bg-gradient-to-b from-blue-600 to-blue-500 sm:h-16 md:h-16 shadow-lg'>
                 <div className="flex justify-between mx-auto  sm:px-5 lg:px-40 h-full items-center sm:flex p-2">
                     <div className="grid sm:flex font-semibold text-3xl gap-2 text-white">
                         <h2>DEMO</h2>
