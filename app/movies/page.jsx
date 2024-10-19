@@ -7,9 +7,9 @@ export default function Movies() {
             </header>
             <menu className='tall mx-4 md:mx-40 my-8 overflow-y-auto'>
                 <div className='flex flex-wrap justify-center grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 2xl:grid-cols-7 gap-3'>
-                    <div className='flex flex-col gap-1'>
-                        <img width={130} className='' src='https://streamcoimg-a.akamaihd.net/000/165/9/1659-PosterArt-b326059d852397768897083483b44324.jpeg' alt='' />
-                        <h2 className='font-bold text-gray-950 text-center'>Program title</h2>
+                    <div className='flex flex-col gap-1 '>
+                        <img width={130} className='cursor-pointer hover:opacity-85 hover:border-2 hover:border-white' src='https://streamcoimg-a.akamaihd.net/000/165/9/1659-PosterArt-b326059d852397768897083483b44324.jpeg' alt='' />
+                        <h2 className='font-bold text-gray-950 text-center cursor-pointer'>Program title</h2>
                     </div>
                 </div>
             </menu>
